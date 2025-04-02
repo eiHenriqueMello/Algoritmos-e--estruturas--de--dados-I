@@ -1,4 +1,4 @@
-#MÉTODO SEM PARÂMETRO E SEM RETORNO 
+# MÉTODO SEM PARÂMETRO E SEM RETORNO 
 
 # def imprimirNomeProf():
 #     print("Henrique")
@@ -63,7 +63,7 @@ class Carro:
             self.__kilometragem
 
     def setKM(self, km):
-        if km > self.__kilometragem:
+        # if km > self.__kilometragem:
             self.__kilometragem = km
 
     def __str__(self):
@@ -79,10 +79,6 @@ class Carro:
 
 X = Carro("Doblo", 2025)
 print(X)
-
-
-
-
 
 
 
