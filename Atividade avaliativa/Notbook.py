@@ -18,5 +18,5 @@ class Notebook(Produto):
         return info
     
     def cadastrar(self):
-        print(f"Notebook {self.modelo} cadastrado com sucesso!")
+        print(f"Notebook {self.modelo} cadastrado com sucesso :) ")
         return True

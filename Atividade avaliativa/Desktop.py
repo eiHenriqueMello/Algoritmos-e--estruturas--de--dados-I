@@ -19,5 +19,5 @@ class Desktop(Produto):
     
     def cadastrar(self):
         
-        print(f"Desktop {self.modelo} cadastrado com sucesso!")
+        print(f"Desktop {self.modelo} cadastrado com sucesso :) ")
         return True

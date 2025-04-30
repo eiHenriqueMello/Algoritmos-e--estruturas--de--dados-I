@@ -108,7 +108,7 @@ class AplicativoCadastro:
             
           
             if produto.cadastrar():
-                messagebox.showinfo("Sucesso", "Produto cadastrado com sucesso!\n\n" + 
+                messagebox.showinfo("Sucesso", "Produto cadastrado com sucesso :) \n\n" + 
                                   "\n".join([f"{k}: {v}" for k, v in produto.getInformacoes().items()]))
                 self.limpar_campos()
         except Exception as e:
